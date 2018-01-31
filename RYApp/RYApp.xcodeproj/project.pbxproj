@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D729F71201C0B9200F722BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D729F70201C0B9200F722BF /* AppDelegate.m */; };
+		0D729F74201C0B9200F722BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D729F73201C0B9200F722BF /* ViewController.m */; };
+		0D729F77201C0B9200F722BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D729F75201C0B9200F722BF /* Main.storyboard */; };
+		0D729F79201C0B9200F722BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D729F78201C0B9200F722BF /* Assets.xcassets */; };
+		0D729F7C201C0B9200F722BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D729F7A201C0B9200F722BF /* LaunchScreen.storyboard */; };
+		0D729F7F201C0B9200F722BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D729F7E201C0B9200F722BF /* main.m */; };
+		0D729F89201C0B9200F722BF /* RYAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D729F88201C0B9200F722BF /* RYAppTests.m */; };
+		0D729F94201C0B9300F722BF /* RYAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D729F93201C0B9300F722BF /* RYAppUITests.m */; };
+		0D729FA2201C150600F722BF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FA1201C150600F722BF /* AssetsLibrary.framework */; };
+		0D729FA4201C151500F722BF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FA3201C151500F722BF /* AudioToolbox.framework */; };
+		0D729FA6201C152C00F722BF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FA5201C152C00F722BF /* AVFoundation.framework */; };
+		0D729FA8201C153B00F722BF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FA7201C153B00F722BF /* CFNetwork.framework */; };
+		0D729FAA201C155000F722BF /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FA9201C155000F722BF /* CoreAudio.framework */; };
+		0D729FAC201C155A00F722BF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FAB201C155A00F722BF /* CoreLocation.framework */; };
+		0D729FAE201C157100F722BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FAD201C157100F722BF /* CoreGraphics.framework */; };
+		0D729FB0201C159A00F722BF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FAF201C159A00F722BF /* CoreMedia.framework */; };
+		0D729FB2201C15B700F722BF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FB1201C15B700F722BF /* CoreTelephony.framework */; };
+		0D729FB4201C15CE00F722BF /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FB3201C15CE00F722BF /* CoreVideo.framework */; };
+		0D729FB6201C15D900F722BF /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FB5201C15D900F722BF /* ImageIO.framework */; };
+		0D729FB8201C15F400F722BF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FB7201C15F400F722BF /* libc++.tbd */; };
+		0D729FBA201C163100F722BF /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FB9201C163100F722BF /* libc++abi.tbd */; };
+		0D729FBC201C164600F722BF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FBB201C164600F722BF /* libsqlite3.tbd */; };
+		0D729FBE201C166700F722BF /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FBD201C166700F722BF /* libstdc++.tbd */; };
+		0D729FC0201C167700F722BF /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FBF201C167700F722BF /* libxml2.tbd */; };
+		0D729FC2201C168300F722BF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FC1201C168300F722BF /* libz.tbd */; };
+		0D729FC4201C169300F722BF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FC3201C169200F722BF /* MapKit.framework */; };
+		0D729FC6201C172E00F722BF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FC5201C172E00F722BF /* OpenGLES.framework */; };
+		0D729FC8201C178200F722BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FC7201C178200F722BF /* QuartzCore.framework */; };
+		0D729FCA201C1C1300F722BF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FC9201C1C1300F722BF /* SystemConfiguration.framework */; };
+		0D729FCC201C1C2200F722BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FCB201C1C2200F722BF /* UIKit.framework */; };
+		0D729FCE201C1C2E00F722BF /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FCD201C1C2D00F722BF /* Photos.framework */; };
+		0D729FD0201C1C3500F722BF /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D729FCF201C1C3500F722BF /* SafariServices.framework */; };
+		0D72DE8C201C291A00DDE737 /* RYVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D72DE8B201C291A00DDE737 /* RYVController.m */; };
+		41328A8665174AECAE9178BE /* libPods-RYApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0776F121F0E3C0667C557DFB /* libPods-RYApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D729F85201C0B9200F722BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D729F64201C0B9200F722BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D729F6B201C0B9200F722BF;
+			remoteInfo = RYApp;
+		};
+		0D729F90201C0B9200F722BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D729F64201C0B9200F722BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D729F6B201C0B9200F722BF;
+			remoteInfo = RYApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0776F121F0E3C0667C557DFB /* libPods-RYApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RYApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D729F6C201C0B9200F722BF /* RYApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D729F6F201C0B9200F722BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D729F70201C0B9200F722BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D729F72201C0B9200F722BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0D729F73201C0B9200F722BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0D729F76201C0B9200F722BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D729F78201C0B9200F722BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D729F7B201C0B9200F722BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D729F7D201C0B9200F722BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D729F7E201C0B9200F722BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D729F84201C0B9200F722BF /* RYAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D729F88201C0B9200F722BF /* RYAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYAppTests.m; sourceTree = "<group>"; };
+		0D729F8A201C0B9200F722BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D729F8F201C0B9200F722BF /* RYAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D729F93201C0B9300F722BF /* RYAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYAppUITests.m; sourceTree = "<group>"; };
+		0D729F95201C0B9300F722BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D729FA1201C150600F722BF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		0D729FA3201C151500F722BF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0D729FA5201C152C00F722BF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0D729FA7201C153B00F722BF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0D729FA9201C155000F722BF /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		0D729FAB201C155A00F722BF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0D729FAD201C157100F722BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0D729FAF201C159A00F722BF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0D729FB1201C15B700F722BF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0D729FB3201C15CE00F722BF /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0D729FB5201C15D900F722BF /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		0D729FB7201C15F400F722BF /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0D729FB9201C163100F722BF /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		0D729FBB201C164600F722BF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		0D729FBD201C166700F722BF /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		0D729FBF201C167700F722BF /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		0D729FC1201C168300F722BF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0D729FC3201C169200F722BF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0D729FC5201C172E00F722BF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0D729FC7201C178200F722BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0D729FC9201C1C1300F722BF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0D729FCB201C1C2200F722BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0D729FCD201C1C2D00F722BF /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		0D729FCF201C1C3500F722BF /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		0D72DE8A201C291A00DDE737 /* RYVController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYVController.h; sourceTree = "<group>"; };
+		0D72DE8B201C291A00DDE737 /* RYVController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYVController.m; sourceTree = "<group>"; };
+		13337D6900271CA6F388C92C /* Pods-RYApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RYApp/Pods-RYApp.release.xcconfig"; sourceTree = "<group>"; };
+		1FB7A84C2DCAFBD096AA47B7 /* Pods-RYApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RYApp/Pods-RYApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D729F69201C0B9200F722BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D729FD0201C1C3500F722BF /* SafariServices.framework in Frameworks */,
+				0D729FCE201C1C2E00F722BF /* Photos.framework in Frameworks */,
+				0D729FCC201C1C2200F722BF /* UIKit.framework in Frameworks */,
+				0D729FCA201C1C1300F722BF /* SystemConfiguration.framework in Frameworks */,
+				0D729FC8201C178200F722BF /* QuartzCore.framework in Frameworks */,
+				0D729FC6201C172E00F722BF /* OpenGLES.framework in Frameworks */,
+				0D729FC4201C169300F722BF /* MapKit.framework in Frameworks */,
+				0D729FC2201C168300F722BF /* libz.tbd in Frameworks */,
+				0D729FC0201C167700F722BF /* libxml2.tbd in Frameworks */,
+				0D729FBE201C166700F722BF /* libstdc++.tbd in Frameworks */,
+				0D729FBC201C164600F722BF /* libsqlite3.tbd in Frameworks */,
+				0D729FBA201C163100F722BF /* libc++abi.tbd in Frameworks */,
+				0D729FB8201C15F400F722BF /* libc++.tbd in Frameworks */,
+				0D729FB6201C15D900F722BF /* ImageIO.framework in Frameworks */,
+				0D729FB4201C15CE00F722BF /* CoreVideo.framework in Frameworks */,
+				0D729FB2201C15B700F722BF /* CoreTelephony.framework in Frameworks */,
+				0D729FB0201C159A00F722BF /* CoreMedia.framework in Frameworks */,
+				0D729FAC201C155A00F722BF /* CoreLocation.framework in Frameworks */,
+				0D729FAE201C157100F722BF /* CoreGraphics.framework in Frameworks */,
+				0D729FAA201C155000F722BF /* CoreAudio.framework in Frameworks */,
+				0D729FA8201C153B00F722BF /* CFNetwork.framework in Frameworks */,
+				0D729FA6201C152C00F722BF /* AVFoundation.framework in Frameworks */,
+				0D729FA4201C151500F722BF /* AudioToolbox.framework in Frameworks */,
+				0D729FA2201C150600F722BF /* AssetsLibrary.framework in Frameworks */,
+				41328A8665174AECAE9178BE /* libPods-RYApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D729F81201C0B9200F722BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D729F8C201C0B9200F722BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D729F63201C0B9200F722BF = {
+			isa = PBXGroup;
+			children = (
+				0D729F6E201C0B9200F722BF /* RYApp */,
+				0D729F87201C0B9200F722BF /* RYAppTests */,
+				0D729F92201C0B9200F722BF /* RYAppUITests */,
+				0D729F6D201C0B9200F722BF /* Products */,
+				1D388EF10E8C1698C2F7B882 /* Pods */,
+				0DA8F4AA1182F8E01E803093 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0D729F6D201C0B9200F722BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D729F6C201C0B9200F722BF /* RYApp.app */,
+				0D729F84201C0B9200F722BF /* RYAppTests.xctest */,
+				0D729F8F201C0B9200F722BF /* RYAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D729F6E201C0B9200F722BF /* RYApp */ = {
+			isa = PBXGroup;
+			children = (
+				0D729F6F201C0B9200F722BF /* AppDelegate.h */,
+				0D729F70201C0B9200F722BF /* AppDelegate.m */,
+				0D72DE8A201C291A00DDE737 /* RYVController.h */,
+				0D72DE8B201C291A00DDE737 /* RYVController.m */,
+				0D729F72201C0B9200F722BF /* ViewController.h */,
+				0D729F73201C0B9200F722BF /* ViewController.m */,
+				0D729F75201C0B9200F722BF /* Main.storyboard */,
+				0D729F78201C0B9200F722BF /* Assets.xcassets */,
+				0D729F7A201C0B9200F722BF /* LaunchScreen.storyboard */,
+				0D729F7D201C0B9200F722BF /* Info.plist */,
+				0D729F7E201C0B9200F722BF /* main.m */,
+			);
+			path = RYApp;
+			sourceTree = "<group>";
+		};
+		0D729F87201C0B9200F722BF /* RYAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D729F88201C0B9200F722BF /* RYAppTests.m */,
+				0D729F8A201C0B9200F722BF /* Info.plist */,
+			);
+			path = RYAppTests;
+			sourceTree = "<group>";
+		};
+		0D729F92201C0B9200F722BF /* RYAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D729F93201C0B9300F722BF /* RYAppUITests.m */,
+				0D729F95201C0B9300F722BF /* Info.plist */,
+			);
+			path = RYAppUITests;
+			sourceTree = "<group>";
+		};
+		0DA8F4AA1182F8E01E803093 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D729FCF201C1C3500F722BF /* SafariServices.framework */,
+				0D729FCD201C1C2D00F722BF /* Photos.framework */,
+				0D729FCB201C1C2200F722BF /* UIKit.framework */,
+				0D729FC9201C1C1300F722BF /* SystemConfiguration.framework */,
+				0D729FC7201C178200F722BF /* QuartzCore.framework */,
+				0D729FC5201C172E00F722BF /* OpenGLES.framework */,
+				0D729FC3201C169200F722BF /* MapKit.framework */,
+				0D729FC1201C168300F722BF /* libz.tbd */,
+				0D729FBF201C167700F722BF /* libxml2.tbd */,
+				0D729FBD201C166700F722BF /* libstdc++.tbd */,
+				0D729FBB201C164600F722BF /* libsqlite3.tbd */,
+				0D729FB9201C163100F722BF /* libc++abi.tbd */,
+				0D729FB7201C15F400F722BF /* libc++.tbd */,
+				0D729FB5201C15D900F722BF /* ImageIO.framework */,
+				0D729FB3201C15CE00F722BF /* CoreVideo.framework */,
+				0D729FB1201C15B700F722BF /* CoreTelephony.framework */,
+				0D729FAF201C159A00F722BF /* CoreMedia.framework */,
+				0D729FAD201C157100F722BF /* CoreGraphics.framework */,
+				0D729FAB201C155A00F722BF /* CoreLocation.framework */,
+				0D729FA9201C155000F722BF /* CoreAudio.framework */,
+				0D729FA7201C153B00F722BF /* CFNetwork.framework */,
+				0D729FA5201C152C00F722BF /* AVFoundation.framework */,
+				0D729FA3201C151500F722BF /* AudioToolbox.framework */,
+				0D729FA1201C150600F722BF /* AssetsLibrary.framework */,
+				0776F121F0E3C0667C557DFB /* libPods-RYApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D388EF10E8C1698C2F7B882 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FB7A84C2DCAFBD096AA47B7 /* Pods-RYApp.debug.xcconfig */,
+				13337D6900271CA6F388C92C /* Pods-RYApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D729F6B201C0B9200F722BF /* RYApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D729F98201C0B9300F722BF /* Build configuration list for PBXNativeTarget "RYApp" */;
+			buildPhases = (
+				B961900AC54D28B48B86DF1C /* [CP] Check Pods Manifest.lock */,
+				0D729F68201C0B9200F722BF /* Sources */,
+				0D729F69201C0B9200F722BF /* Frameworks */,
+				0D729F6A201C0B9200F722BF /* Resources */,
+				3A55840A8D9489DE7D19F3C4 /* [CP] Embed Pods Frameworks */,
+				6076B7A7F6F32EEED347DA2C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RYApp;
+			productName = RYApp;
+			productReference = 0D729F6C201C0B9200F722BF /* RYApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D729F83201C0B9200F722BF /* RYAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D729F9B201C0B9300F722BF /* Build configuration list for PBXNativeTarget "RYAppTests" */;
+			buildPhases = (
+				0D729F80201C0B9200F722BF /* Sources */,
+				0D729F81201C0B9200F722BF /* Frameworks */,
+				0D729F82201C0B9200F722BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D729F86201C0B9200F722BF /* PBXTargetDependency */,
+			);
+			name = RYAppTests;
+			productName = RYAppTests;
+			productReference = 0D729F84201C0B9200F722BF /* RYAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D729F8E201C0B9200F722BF /* RYAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D729F9E201C0B9300F722BF /* Build configuration list for PBXNativeTarget "RYAppUITests" */;
+			buildPhases = (
+				0D729F8B201C0B9200F722BF /* Sources */,
+				0D729F8C201C0B9200F722BF /* Frameworks */,
+				0D729F8D201C0B9200F722BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D729F91201C0B9200F722BF /* PBXTargetDependency */,
+			);
+			name = RYAppUITests;
+			productName = RYAppUITests;
+			productReference = 0D729F8F201C0B9200F722BF /* RYAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D729F64201C0B9200F722BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "连杰";
+				TargetAttributes = {
+					0D729F6B201C0B9200F722BF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0D729F83201C0B9200F722BF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0D729F6B201C0B9200F722BF;
+					};
+					0D729F8E201C0B9200F722BF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0D729F6B201C0B9200F722BF;
+					};
+				};
+			};
+			buildConfigurationList = 0D729F67201C0B9200F722BF /* Build configuration list for PBXProject "RYApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D729F63201C0B9200F722BF;
+			productRefGroup = 0D729F6D201C0B9200F722BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D729F6B201C0B9200F722BF /* RYApp */,
+				0D729F83201C0B9200F722BF /* RYAppTests */,
+				0D729F8E201C0B9200F722BF /* RYAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D729F6A201C0B9200F722BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D729F7C201C0B9200F722BF /* LaunchScreen.storyboard in Resources */,
+				0D729F79201C0B9200F722BF /* Assets.xcassets in Resources */,
+				0D729F77201C0B9200F722BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D729F82201C0B9200F722BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D729F8D201C0B9200F722BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A55840A8D9489DE7D19F3C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RYApp/Pods-RYApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6076B7A7F6F32EEED347DA2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RYApp/Pods-RYApp-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyBoardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RongCloud.bundle",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/en.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/zh-Hans.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/Emoji.plist",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RCConfig.plist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RYApp/Pods-RYApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B961900AC54D28B48B86DF1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RYApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D729F68201C0B9200F722BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D729F74201C0B9200F722BF /* ViewController.m in Sources */,
+				0D729F7F201C0B9200F722BF /* main.m in Sources */,
+				0D729F71201C0B9200F722BF /* AppDelegate.m in Sources */,
+				0D72DE8C201C291A00DDE737 /* RYVController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D729F80201C0B9200F722BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D729F89201C0B9200F722BF /* RYAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D729F8B201C0B9200F722BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D729F94201C0B9300F722BF /* RYAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D729F86201C0B9200F722BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D729F6B201C0B9200F722BF /* RYApp */;
+			targetProxy = 0D729F85201C0B9200F722BF /* PBXContainerItemProxy */;
+		};
+		0D729F91201C0B9200F722BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D729F6B201C0B9200F722BF /* RYApp */;
+			targetProxy = 0D729F90201C0B9200F722BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D729F75201C0B9200F722BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D729F76201C0B9200F722BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D729F7A201C0B9200F722BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D729F7B201C0B9200F722BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D729F96201C0B9300F722BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D729F97201C0B9300F722BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D729F99201C0B9300F722BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FB7A84C2DCAFBD096AA47B7 /* Pods-RYApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/RongCloudIM\"",
+				);
+				INFOPLIST_FILE = RYApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryapp.RYApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		0D729F9A201C0B9300F722BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13337D6900271CA6F388C92C /* Pods-RYApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/RongCloudIM\"",
+				);
+				INFOPLIST_FILE = RYApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryapp.RYApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+		0D729F9C201C0B9300F722BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RYAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryapp.RYAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RYApp.app/RYApp";
+			};
+			name = Debug;
+		};
+		0D729F9D201C0B9300F722BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RYAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryapp.RYAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RYApp.app/RYApp";
+			};
+			name = Release;
+		};
+		0D729F9F201C0B9300F722BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RYAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryapp.RYAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RYApp;
+			};
+			name = Debug;
+		};
+		0D729FA0201C0B9300F722BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RYAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryapp.RYAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RYApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D729F67201C0B9200F722BF /* Build configuration list for PBXProject "RYApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D729F96201C0B9300F722BF /* Debug */,
+				0D729F97201C0B9300F722BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D729F98201C0B9300F722BF /* Build configuration list for PBXNativeTarget "RYApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D729F99201C0B9300F722BF /* Debug */,
+				0D729F9A201C0B9300F722BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D729F9B201C0B9300F722BF /* Build configuration list for PBXNativeTarget "RYAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D729F9C201C0B9300F722BF /* Debug */,
+				0D729F9D201C0B9300F722BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D729F9E201C0B9300F722BF /* Build configuration list for PBXNativeTarget "RYAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D729F9F201C0B9300F722BF /* Debug */,
+				0D729FA0201C0B9300F722BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D729F64201C0B9200F722BF /* Project object */;
+}
